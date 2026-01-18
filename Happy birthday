@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Likhon ❤️</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      text-align: center;
+      background: linear-gradient(to right, #ff758c, #ff7eb3);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.15);
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 50px;
+      animation: beat 1s infinite;
+      margin: 15px 0;
+    }
+
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      background: white;
+      color: #ff4f7a;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #ffe3ec;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>🎉 Happy Birthday 🎂</h1>
+    <h2>Likhon 💖</h2>
+
+    <div class="heart">❤️</div>
+
+    <p>
+      On your special day, I just want to remind you  
+      how amazing, beautiful, and special you are.  
+      May your life be filled with love, smiles,  
+      and unforgettable moments 🌹
+    </p>
+
+    <button onclick="alert('💖 Always stay happy, Likhon 💖')">
+      Click for a Surprise
+    </button>
+  </div>
+
+</body>
+</html>
